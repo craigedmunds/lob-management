@@ -1,0 +1,6 @@
+dependencies:
+- name: web-service
+  repository: file://../../charts/web-service
+  version: 0.1.0
+digest: sha256:60f55a3ef796310f1291dfba75cdac4c0e0465cbd510ecd3550fa2d05d0da05b
+generated: "2025-09-24T13:19:48.9491+01:00"

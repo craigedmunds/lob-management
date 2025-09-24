@@ -1,0 +1,10 @@
+# Default values for simple-service.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+value1: "Hello World"
+value2: "Goodbye World"
+value3: "Config Value 3"
+value4: "Config Value 4"
+oas:
+  swagger: '2.0'

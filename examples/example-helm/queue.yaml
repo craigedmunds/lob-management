@@ -1,0 +1,7 @@
+rabbitmq-chart:
+  topics:
+  - name: mytopic
+    producer: myproducer-service
+    queues:
+        - name: myqueue
+          consumer: myconsumer-service

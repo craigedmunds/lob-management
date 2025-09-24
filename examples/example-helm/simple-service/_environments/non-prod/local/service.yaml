@@ -1,0 +1,3 @@
+
+web-service:
+  value3: "I'm a per service per environment override"

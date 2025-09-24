@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-service-configmap
+data:
+  oas: {{ .Values.oas | toJson | quote }}
+  value1: "{{ .Values.value1 }}"
+  value2: "{{ .Values.value2 }}"
+  value3: "{{ .Values.value3 }}"
+  value4: "{{ .Values.value4 }}"
